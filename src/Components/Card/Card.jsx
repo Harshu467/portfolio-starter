@@ -6,7 +6,7 @@ const Card = ({emoji,heading,detail}) => {
       <img src={emoji} alt=''/>
       <span>{heading}</span>
       <span>{detail}</span>
-      <button className="c-button">LEARN MORE</button>
+      <a href='https://www.hackerrank.com/harshupadhye2832' ><button className="c-button">LEARN MORE</button></a>
     </div>
   )
 }

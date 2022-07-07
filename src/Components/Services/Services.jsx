@@ -23,19 +23,19 @@ const Services = () => {
             <Card
               emoji={Heart}
               heading='Design'
-              detail='CSS , React , HTML ' />
+              detail='CSS , BootStrap ' />
           </div>
           <div style={{ marginTop: '3rem', marginLeft: '-4rem' }}>
             <Card
               emoji={glasses}
               heading='Developer'
-              detail='HTML , CSS ,JavaScript , React' />
+              detail='C , CPP , Python' />
           </div>
           <div style={{ marginTop: '-15rem', marginLeft: '18rem' }}>
             <Card
               emoji={humble}
               heading='UI/UX'
-              detail='AAA style left' />
+              detail='HTML ,JavaScript , React' />
 
           </div>
         </div>
