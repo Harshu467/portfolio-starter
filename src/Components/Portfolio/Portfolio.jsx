@@ -8,7 +8,7 @@ import 'swiper/css';
 import {Swiper,SwiperSlide} from 'swiper/react';
 const Portfolio = () => {
   return (
-    <div className='Portfolio'>
+    <div className='Portfolio' id='Portfolio'>
       <span>Recent Projects</span>
       <Swiper
       spaceBetween={30}

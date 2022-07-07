@@ -1,20 +1,19 @@
 import React from 'react'
 import './Works.css'
-import amazon from '../../img/amazon.png'
 import Facebook from '../../img/Facebook.png'
 import Upwork from '../../img/Upwork.png'
 import Shopify from '../../img/Shopify.png'
 import fiverr from '../../img/fiverr.png'
+import RT from '../../img/RT.png'
+import { Link } from 'react-scroll'
 const Works = () => {
   return (
     <div className='Works'>
       <div className="w-left">
-        <span>Works for All this</span>
-        <span>Brands & Clients</span>
-        <span> am Front-End designer and developer.
-          <br />Please have a seat, scroll down and I will get you coffee
-          <br />Please have a seat, scroll down and I will get you coffee</span>
-        <button className="button s-button">Hire Me</button>
+        <span>Harsh Upadhye's</span>
+        <span>Certificates</span>
+        <Link to="Contact" smooth={true} spy={true} >
+        <button className="button s-button">Hire Me</button></Link>
       </div>
       <div className="w-right">
         <div className="w-mcircle">
@@ -25,7 +24,7 @@ const Works = () => {
             <img src={fiverr} alt='' />
           </div>
           <div className="scircle">
-            <img src={amazon} alt='' />
+           <a href='https://www.hackerrank.com/certificates/10c1d4253157' ><img style={{transform:'scale(0.6'}} src={RT} alt='' /></a>
           </div>
           <div className="scircle">
             <img src={Shopify} alt='' />

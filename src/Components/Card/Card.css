@@ -21,20 +21,6 @@
     color: var(--gray);
     top: -6rem;
 }
-.Card>img{
-    top:  -2rem;
-    transform: scale(0.6);
-}
-.c-button{
-    background: #ffffff;
-    box-shadow: 0px 19px 60px rgba(0,0,0,0.08) ;
-    border-radius: 7px;
-    border: none;
-    padding: 10px;
-    font-size: 16px;
-    color: #5290fd;
-    cursor: pointer;
-}
 @media screen and (max-width: 480px){
     .Card{
       width: auto;

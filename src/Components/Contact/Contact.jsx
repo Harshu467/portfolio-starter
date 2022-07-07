@@ -17,7 +17,7 @@ const Contact = () => {
       });
   };
   return (
-    <div className='Contact' >
+    <div className='Contact'id="Contact" >
       <div className="cleft">
         <div className="cspan">
           <span>Contact Me</span>
