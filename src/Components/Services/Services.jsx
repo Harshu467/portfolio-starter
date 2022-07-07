@@ -9,10 +9,10 @@ const Services = () => {
   return (
     <div className='Services'>
       <div className="left">
-        <span>Harsh's</span>
+        <span>Harsh Upadhye's</span>
         <span>Services</span>
-        <span> am Front-End designer and developer.
-          <br />Please have a seat, scroll down and I will get you coffee</span>
+        <span> I give you best design and best product.
+          <br />I give product within a given time and with cheap price.</span>
           <a href={Resume} download>
         <button className="button s-button">Download CV</button></a>
       </div>
