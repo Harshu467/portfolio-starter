@@ -1,7 +1,7 @@
 import React from 'react'
-import sidebar from '../../img/sidebar.png'
+import watch from '../../img/Watch.png'
 import ecommerce from '../../img/ecommerce.png'
-import hoc from '../../img/hoc.png'
+import healthy from '../../img/Healthy.png'
 import musicapp from '../../img/musicapp.png'
 import './Portfolio.css'
 import 'swiper/css';
@@ -17,13 +17,13 @@ const Portfolio = () => {
       className='Portfolio-slider'
       >
         <SwiperSlide>
-            <img src={sidebar} alt=''  />
+            <img src={watch} alt='Amazon Watch'  />
         </SwiperSlide>
         <SwiperSlide>
             <img src={ecommerce} alt=''  />
         </SwiperSlide>
         <SwiperSlide>
-            <img src={hoc} alt=''  />
+            <img src={healthy} alt=''  />
         </SwiperSlide>
         <SwiperSlide>
             <img src={musicapp} alt=''  />
