@@ -20,7 +20,7 @@ const Contact = () => {
     <div className='Contact'id="Contact" >
       <div className="cleft">
         <div className="cspan">
-          <span>Contact Me</span>
+          <h1 style={{color:'var(--orange)' }}>Contact Me</h1>
           <div className='blur s-blur' style={{ background: '#ABF1FF94' }}>
           </div>
         </div>
